@@ -1,0 +1,21 @@
+{
+  "seed": 7,
+  "epsilon": 1e-06,
+  "dtype": "float64",
+  "objective": "sum(attention(Q,K,V) * upstream)",
+  "passed": true,
+  "errors": {
+    "dQ": {
+      "max_absolute_error": 1.1602001304122922e-10,
+      "relative_l2_error": 8.19735000653996e-11
+    },
+    "dK": {
+      "max_absolute_error": 1.3121916747627083e-10,
+      "relative_l2_error": 1.7686079318765343e-10
+    },
+    "dV": {
+      "max_absolute_error": 3.141403803752496e-11,
+      "relative_l2_error": 2.0999580912594732e-11
+    }
+  }
+}

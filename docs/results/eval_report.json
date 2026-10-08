@@ -1,0 +1,11 @@
+{
+  "task": "synthetic associative recall",
+  "checkpoint": "docs/results/recall_model.npz",
+  "test_seed": 2026,
+  "examples": 4096,
+  "slots": 6,
+  "accuracy": 1.0,
+  "correct": 4096,
+  "cross_entropy": 0.0014778205142620883,
+  "note": "Fresh random sample; this seed is separate from training and validation. Single checkpoint; not a real-world benchmark."
+}

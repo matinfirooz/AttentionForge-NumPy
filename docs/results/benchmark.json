@@ -1,0 +1,84 @@
+{
+  "seed": 42,
+  "dtype": "float64",
+  "batch": 1,
+  "heads": 4,
+  "head_dim": 32,
+  "query_block": 32,
+  "key_block": 64,
+  "causal": true,
+  "repeats": 5,
+  "statistic": "median after one warmup",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "blas_thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "records": [
+    {
+      "length": 64,
+      "dense_ms": 0.23616599992237752,
+      "tiled_ms": 0.30823399993096245,
+      "max_absolute_error": 4.440892098500626e-16,
+      "named_storage_bytes": {
+        "dense_score_and_weights": 262144,
+        "tiled_score_and_exp": 131072,
+        "tiled_running_state": 34816,
+        "output": 65536
+      }
+    },
+    {
+      "length": 128,
+      "dense_ms": 0.6445200001508056,
+      "tiled_ms": 0.8513220000168076,
+      "max_absolute_error": 8.881784197001252e-16,
+      "named_storage_bytes": {
+        "dense_score_and_weights": 1048576,
+        "tiled_score_and_exp": 131072,
+        "tiled_running_state": 34816,
+        "output": 131072
+      }
+    },
+    {
+      "length": 256,
+      "dense_ms": 4.216638999878342,
+      "tiled_ms": 3.6710480001147516,
+      "max_absolute_error": 9.992007221626409e-16,
+      "named_storage_bytes": {
+        "dense_score_and_weights": 4194304,
+        "tiled_score_and_exp": 131072,
+        "tiled_running_state": 34816,
+        "output": 262144
+      }
+    },
+    {
+      "length": 512,
+      "dense_ms": 14.185497999960717,
+      "tiled_ms": 12.40279500007091,
+      "max_absolute_error": 1.3322676295501878e-15,
+      "named_storage_bytes": {
+        "dense_score_and_weights": 16777216,
+        "tiled_score_and_exp": 131072,
+        "tiled_running_state": 34816,
+        "output": 524288
+      }
+    },
+    {
+      "length": 1024,
+      "dense_ms": 57.09475700018629,
+      "tiled_ms": 51.584140000159096,
+      "max_absolute_error": 6.661338147750939e-16,
+      "named_storage_bytes": {
+        "dense_score_and_weights": 67108864,
+        "tiled_score_and_exp": 131072,
+        "tiled_running_state": 34816,
+        "output": 1048576
+      }
+    }
+  ],
+  "storage_note": "Named score/exp/running-state arrays only. Not measured peak RSS. Inputs, output, masks, expression temporaries and BLAS workspace excluded. Tiled stores no full N x N scores/probabilities.",
+  "timing_note": "Readable Python loops can make tiled attention slower. Timings are local CPU measurements, not a GPU or general speedup claim."
+}

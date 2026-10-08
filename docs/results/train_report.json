@@ -1,0 +1,235 @@
+{
+  "task": "synthetic associative recall",
+  "seed": 42,
+  "steps": 600,
+  "batch_size": 64,
+  "slots": 6,
+  "num_keys": 16,
+  "num_values": 8,
+  "validation_examples": 1024,
+  "validation_seed": 1042,
+  "parameters": 4360,
+  "initial": {
+    "step": 0,
+    "train_loss": null,
+    "train_accuracy": null,
+    "val_loss": 2.084693144156211,
+    "val_accuracy": 0.16796875,
+    "mean_head_entropy": 1.791048636722164
+  },
+  "final": {
+    "step": 600,
+    "train_loss": 0.0015913291263984775,
+    "train_accuracy": 1.0,
+    "val_loss": 0.0012038068681712614,
+    "val_accuracy": 1.0,
+    "mean_head_entropy": 1.3616053885167423
+  },
+  "elapsed_seconds": 0.6209671639999215,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "history": [
+    {
+      "step": 0,
+      "train_loss": null,
+      "train_accuracy": null,
+      "val_loss": 2.084693144156211,
+      "val_accuracy": 0.16796875,
+      "mean_head_entropy": 1.791048636722164
+    },
+    {
+      "step": 25,
+      "train_loss": 1.9591735891174058,
+      "train_accuracy": 0.296875,
+      "val_loss": 1.951252470638936,
+      "val_accuracy": 0.3212890625,
+      "mean_head_entropy": 1.7909506587758983
+    },
+    {
+      "step": 50,
+      "train_loss": 1.7841427737529143,
+      "train_accuracy": 0.359375,
+      "val_loss": 1.7886452446640773,
+      "val_accuracy": 0.3544921875,
+      "mean_head_entropy": 1.7902567126869828
+    },
+    {
+      "step": 75,
+      "train_loss": 1.5618940131491932,
+      "train_accuracy": 0.4375,
+      "val_loss": 1.5882109707982568,
+      "val_accuracy": 0.392578125,
+      "mean_head_entropy": 1.7874573470656208
+    },
+    {
+      "step": 100,
+      "train_loss": 1.2596101277889467,
+      "train_accuracy": 0.5625,
+      "val_loss": 1.3785201174177306,
+      "val_accuracy": 0.4609375,
+      "mean_head_entropy": 1.7787239695029744
+    },
+    {
+      "step": 125,
+      "train_loss": 0.9624128397209394,
+      "train_accuracy": 0.609375,
+      "val_loss": 1.0846461329737251,
+      "val_accuracy": 0.5654296875,
+      "mean_head_entropy": 1.756700587756074
+    },
+    {
+      "step": 150,
+      "train_loss": 0.7632902454438305,
+      "train_accuracy": 0.734375,
+      "val_loss": 0.6975263247503194,
+      "val_accuracy": 0.74609375,
+      "mean_head_entropy": 1.7119007760236238
+    },
+    {
+      "step": 175,
+      "train_loss": 0.2865206515439732,
+      "train_accuracy": 0.9375,
+      "val_loss": 0.31702528917033246,
+      "val_accuracy": 0.9111328125,
+      "mean_head_entropy": 1.6419607390744178
+    },
+    {
+      "step": 200,
+      "train_loss": 0.10644355305803666,
+      "train_accuracy": 0.96875,
+      "val_loss": 0.11856366159941677,
+      "val_accuracy": 0.9736328125,
+      "mean_head_entropy": 1.5729353590208484
+    },
+    {
+      "step": 225,
+      "train_loss": 0.03908568062632048,
+      "train_accuracy": 1.0,
+      "val_loss": 0.04726472060876157,
+      "val_accuracy": 0.9931640625,
+      "mean_head_entropy": 1.5224936920869045
+    },
+    {
+      "step": 250,
+      "train_loss": 0.02967060983017436,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0262639043368895,
+      "val_accuracy": 0.998046875,
+      "mean_head_entropy": 1.4913541364436311
+    },
+    {
+      "step": 275,
+      "train_loss": 0.014941051036927666,
+      "train_accuracy": 1.0,
+      "val_loss": 0.01663880163967158,
+      "val_accuracy": 0.998046875,
+      "mean_head_entropy": 1.4694505664180024
+    },
+    {
+      "step": 300,
+      "train_loss": 0.012402445802131068,
+      "train_accuracy": 1.0,
+      "val_loss": 0.011423880268991472,
+      "val_accuracy": 0.9990234375,
+      "mean_head_entropy": 1.451213976390349
+    },
+    {
+      "step": 325,
+      "train_loss": 0.006219052673412662,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0076599908323151614,
+      "val_accuracy": 0.9990234375,
+      "mean_head_entropy": 1.4371467699013163
+    },
+    {
+      "step": 350,
+      "train_loss": 0.008828685795527064,
+      "train_accuracy": 1.0,
+      "val_loss": 0.005553572946891955,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.4261048336534174
+    },
+    {
+      "step": 375,
+      "train_loss": 0.004694977559389774,
+      "train_accuracy": 1.0,
+      "val_loss": 0.004412106446019602,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.4159186404998536
+    },
+    {
+      "step": 400,
+      "train_loss": 0.01789604216085315,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0038261939138730288,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.4065242155302835
+    },
+    {
+      "step": 425,
+      "train_loss": 0.009388223341240107,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0033143166873186563,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.3986569244303402
+    },
+    {
+      "step": 450,
+      "train_loss": 0.001818625895227577,
+      "train_accuracy": 1.0,
+      "val_loss": 0.002839172807168884,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.3926020993956845
+    },
+    {
+      "step": 475,
+      "train_loss": 0.002122316108633296,
+      "train_accuracy": 1.0,
+      "val_loss": 0.002498949202685663,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.3869136187252824
+    },
+    {
+      "step": 500,
+      "train_loss": 0.003300180446478007,
+      "train_accuracy": 1.0,
+      "val_loss": 0.002202335538865071,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.3824858484605531
+    },
+    {
+      "step": 525,
+      "train_loss": 0.0024621911365704102,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0019007103020856238,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.378205632324046
+    },
+    {
+      "step": 550,
+      "train_loss": 0.001324026038438772,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0015512116763284137,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.372633363820516
+    },
+    {
+      "step": 575,
+      "train_loss": 0.0026726701279520815,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0013656953306781586,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.3670362515252945
+    },
+    {
+      "step": 600,
+      "train_loss": 0.0015913291263984775,
+      "train_accuracy": 1.0,
+      "val_loss": 0.0012038068681712614,
+      "val_accuracy": 1.0,
+      "mean_head_entropy": 1.3616053885167423
+    }
+  ],
+  "checkpoint_reload_exact": true,
+  "note": "Fresh random training batches; fixed validation used only for monitoring. Single-seed teaching experiment."
+}

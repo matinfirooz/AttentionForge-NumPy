@@ -1,0 +1,9 @@
+{
+  "tests_run": 39,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "python": "3.12.14",
+  "command": "python -m examples.reproduce"
+}

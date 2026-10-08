@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1130" height="470" viewBox="0 0 1130 470" role="img" aria-label="Four causal attention heads from a reproducible NumPy computation">
+<title>Four causal attention heads from a reproducible NumPy computation</title>
+<rect width="1130" height="470" rx="20" fill="#091220"/>
+<text x="35" y="42" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="25" fill="#e7f0fa" font-weight="700" text-anchor="start" >One sequence. Four ways to attend.</text>
+<text x="35" y="71" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#91a6be" font-weight="400" text-anchor="start" >Constructed projections · causal mask · rows=query, columns=key · temperature=1</text>
+<text x="52" y="111" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="700" text-anchor="start" >HEAD 0</text>
+<rect x="52" y="137" width="37" height="37" rx="5" fill="#52e5c3" />
+<rect x="92" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="132" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="172" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="212" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="252" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="52" y="177" width="37" height="37" rx="5" fill="#1e4a55" />
+<rect x="92" y="177" width="37" height="37" rx="5" fill="#46c2aa" />
+<rect x="132" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="172" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="212" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="252" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="52" y="217" width="37" height="37" rx="5" fill="#1d4652" />
+<rect x="92" y="217" width="37" height="37" rx="5" fill="#266266" />
+<rect x="132" y="217" width="37" height="37" rx="5" fill="#348b83" />
+<rect x="172" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="212" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="252" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="52" y="257" width="37" height="37" rx="5" fill="#1d4854" />
+<rect x="92" y="257" width="37" height="37" rx="5" fill="#132b3f" />
+<rect x="132" y="257" width="37" height="37" rx="5" fill="#142d40" />
+<rect x="172" y="257" width="37" height="37" rx="5" fill="#43baa4" />
+<rect x="212" y="257" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="252" y="257" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="52" y="297" width="37" height="37" rx="5" fill="#132a3e" />
+<rect x="92" y="297" width="37" height="37" rx="5" fill="#153143" />
+<rect x="132" y="297" width="37" height="37" rx="5" fill="#173546" />
+<rect x="172" y="297" width="37" height="37" rx="5" fill="#183848" />
+<rect x="212" y="297" width="37" height="37" rx="5" fill="#43b9a4" />
+<rect x="252" y="297" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="52" y="337" width="37" height="37" rx="5" fill="#132a3e" />
+<rect x="92" y="337" width="37" height="37" rx="5" fill="#152f42" />
+<rect x="132" y="337" width="37" height="37" rx="5" fill="#142d40" />
+<rect x="172" y="337" width="37" height="37" rx="5" fill="#142e41" />
+<rect x="212" y="337" width="37" height="37" rx="5" fill="#142e41" />
+<rect x="252" y="337" width="37" height="37" rx="5" fill="#48c6ad" />
+<text x="52" y="400" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="13" fill="#91a6be" font-weight="400" text-anchor="start" >earlier ← keys → later</text>
+<text x="325" y="111" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="700" text-anchor="start" >HEAD 1</text>
+<rect x="325" y="137" width="37" height="37" rx="5" fill="#52e5c3" />
+<rect x="365" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="405" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="445" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="485" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="525" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="325" y="177" width="37" height="37" rx="5" fill="#1a3e4d" />
+<rect x="365" y="177" width="37" height="37" rx="5" fill="#4aceb2" />
+<rect x="405" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="445" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="485" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="525" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="325" y="217" width="37" height="37" rx="5" fill="#132b3f" />
+<rect x="365" y="217" width="37" height="37" rx="5" fill="#1c4551" />
+<rect x="405" y="217" width="37" height="37" rx="5" fill="#47c3ab" />
+<rect x="445" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="485" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="525" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="325" y="257" width="37" height="37" rx="5" fill="#132b3f" />
+<rect x="365" y="257" width="37" height="37" rx="5" fill="#1c4451" />
+<rect x="405" y="257" width="37" height="37" rx="5" fill="#45c0a8" />
+<rect x="445" y="257" width="37" height="37" rx="5" fill="#132b3f" />
+<rect x="485" y="257" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="525" y="257" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="325" y="297" width="37" height="37" rx="5" fill="#132b3f" />
+<rect x="365" y="297" width="37" height="37" rx="5" fill="#1b4350" />
+<rect x="405" y="297" width="37" height="37" rx="5" fill="#44bba5" />
+<rect x="445" y="297" width="37" height="37" rx="5" fill="#132b3f" />
+<rect x="485" y="297" width="37" height="37" rx="5" fill="#142c40" />
+<rect x="525" y="297" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="325" y="337" width="37" height="37" rx="5" fill="#132b3f" />
+<rect x="365" y="337" width="37" height="37" rx="5" fill="#1b424f" />
+<rect x="405" y="337" width="37" height="37" rx="5" fill="#42b4a0" />
+<rect x="445" y="337" width="37" height="37" rx="5" fill="#132b3f" />
+<rect x="485" y="337" width="37" height="37" rx="5" fill="#142c40" />
+<rect x="525" y="337" width="37" height="37" rx="5" fill="#153042" />
+<text x="325" y="400" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="13" fill="#91a6be" font-weight="400" text-anchor="start" >earlier ← keys → later</text>
+<text x="598" y="111" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="700" text-anchor="start" >HEAD 2</text>
+<rect x="598" y="137" width="37" height="37" rx="5" fill="#52e5c3" />
+<rect x="638" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="678" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="718" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="758" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="798" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="598" y="177" width="37" height="37" rx="5" fill="#3fad9c" />
+<rect x="638" y="177" width="37" height="37" rx="5" fill="#255f63" />
+<rect x="678" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="718" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="758" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="798" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="598" y="217" width="37" height="37" rx="5" fill="#266266" />
+<rect x="638" y="217" width="37" height="37" rx="5" fill="#32867f" />
+<rect x="678" y="217" width="37" height="37" rx="5" fill="#1e4b55" />
+<rect x="718" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="758" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="798" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="598" y="257" width="37" height="37" rx="5" fill="#1b414e" />
+<rect x="638" y="257" width="37" height="37" rx="5" fill="#245d63" />
+<rect x="678" y="257" width="37" height="37" rx="5" fill="#1f4e58" />
+<rect x="718" y="257" width="37" height="37" rx="5" fill="#2a6e6e" />
+<rect x="758" y="257" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="798" y="257" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="598" y="297" width="37" height="37" rx="5" fill="#1c4652" />
+<rect x="638" y="297" width="37" height="37" rx="5" fill="#266367" />
+<rect x="678" y="297" width="37" height="37" rx="5" fill="#296b6c" />
+<rect x="718" y="297" width="37" height="37" rx="5" fill="#1a3e4c" />
+<rect x="758" y="297" width="37" height="37" rx="5" fill="#153042" />
+<rect x="798" y="297" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="598" y="337" width="37" height="37" rx="5" fill="#163143" />
+<rect x="638" y="337" width="37" height="37" rx="5" fill="#142e41" />
+<rect x="678" y="337" width="37" height="37" rx="5" fill="#1d4752" />
+<rect x="718" y="337" width="37" height="37" rx="5" fill="#1b414e" />
+<rect x="758" y="337" width="37" height="37" rx="5" fill="#1d4854" />
+<rect x="798" y="337" width="37" height="37" rx="5" fill="#2e7976" />
+<text x="598" y="400" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="13" fill="#91a6be" font-weight="400" text-anchor="start" >earlier ← keys → later</text>
+<text x="871" y="111" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="700" text-anchor="start" >HEAD 3</text>
+<rect x="871" y="137" width="37" height="37" rx="5" fill="#52e5c3" />
+<rect x="911" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="951" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="991" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="1031" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="1071" y="137" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="871" y="177" width="37" height="37" rx="5" fill="#43b7a2" />
+<rect x="911" y="177" width="37" height="37" rx="5" fill="#21555d" />
+<rect x="951" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="991" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="1031" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="1071" y="177" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="871" y="217" width="37" height="37" rx="5" fill="#43b8a3" />
+<rect x="911" y="217" width="37" height="37" rx="5" fill="#183848" />
+<rect x="951" y="217" width="37" height="37" rx="5" fill="#1c4350" />
+<rect x="991" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="1031" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="1071" y="217" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="871" y="257" width="37" height="37" rx="5" fill="#193c4b" />
+<rect x="911" y="257" width="37" height="37" rx="5" fill="#3a9d90" />
+<rect x="951" y="257" width="37" height="37" rx="5" fill="#205059" />
+<rect x="991" y="257" width="37" height="37" rx="5" fill="#153143" />
+<rect x="1031" y="257" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="1071" y="257" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="871" y="297" width="37" height="37" rx="5" fill="#193c4b" />
+<rect x="911" y="297" width="37" height="37" rx="5" fill="#1b4350" />
+<rect x="951" y="297" width="37" height="37" rx="5" fill="#173748" />
+<rect x="991" y="297" width="37" height="37" rx="5" fill="#173546" />
+<rect x="1031" y="297" width="37" height="37" rx="5" fill="#37958a" />
+<rect x="1071" y="297" width="37" height="37" rx="5" fill="#12273c" />
+<rect x="871" y="337" width="37" height="37" rx="5" fill="#1f4e57" />
+<rect x="911" y="337" width="37" height="37" rx="5" fill="#1d4753" />
+<rect x="951" y="337" width="37" height="37" rx="5" fill="#1a3d4c" />
+<rect x="991" y="337" width="37" height="37" rx="5" fill="#1a3e4c" />
+<rect x="1031" y="337" width="37" height="37" rx="5" fill="#245c62" />
+<rect x="1071" y="337" width="37" height="37" rx="5" fill="#193c4b" />
+<text x="871" y="400" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="13" fill="#91a6be" font-weight="400" text-anchor="start" >earlier ← keys → later</text>
+<text x="35" y="444" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#91a6be" font-weight="400" text-anchor="start" >Masked future positions are exactly zero. Each visible query row sums to one.</text>
+</svg>

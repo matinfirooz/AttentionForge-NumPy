@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="490" viewBox="0 0 1280 490" role="img" aria-label="AttentionForge: NumPy-only attention from forward to learning">
+<title>AttentionForge: NumPy-only attention from forward to learning</title>
+<rect width="1280" height="490" rx="20" fill="#091220"/>
+<text x="52" y="51" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="700" text-anchor="start" letter-spacing="2">MATINFIROOZ / ATTENTIONFORGE-NUMPY</text>
+<text x="50" y="125" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="50" fill="#e7f0fa" font-weight="700" text-anchor="start" >Attention, with nothing hidden.</text>
+<text x="52" y="166" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="20" fill="#91a6be" font-weight="400" text-anchor="start" >Read the math. Check the gradients. Train the memory. Inspect every head.</text>
+<rect x="52" y="212" width="272" height="143" rx="8" fill="#101f32" />
+<text x="70" y="242" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="700" text-anchor="start" >01</text>
+<text x="70" y="276" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="21" fill="#e7f0fa" font-weight="700" text-anchor="start" >PROJECT</text>
+<text x="70" y="318" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="19" fill="#91a6be" font-weight="400" text-anchor="start" >Q, K, V</text>
+<line x1="327" y1="282" x2="347" y2="282" stroke="#52e5c3" stroke-width="2"/>
+<polyline points="342.00,277.00 348.00,282.00 342.00,287.00" fill="none" stroke="#52e5c3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="354" y="212" width="272" height="143" rx="8" fill="#101f32" />
+<text x="372" y="242" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="700" text-anchor="start" >02</text>
+<text x="372" y="276" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="21" fill="#e7f0fa" font-weight="700" text-anchor="start" >COMPARE</text>
+<text x="372" y="318" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="19" fill="#91a6be" font-weight="400" text-anchor="start" >Q × Kᵀ / √d</text>
+<line x1="629" y1="282" x2="649" y2="282" stroke="#52e5c3" stroke-width="2"/>
+<polyline points="644.00,277.00 650.00,282.00 644.00,287.00" fill="none" stroke="#52e5c3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="656" y="212" width="272" height="143" rx="8" fill="#101f32" />
+<text x="674" y="242" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="700" text-anchor="start" >03</text>
+<text x="674" y="276" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="21" fill="#e7f0fa" font-weight="700" text-anchor="start" >NORMALIZE</text>
+<text x="674" y="318" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="19" fill="#91a6be" font-weight="400" text-anchor="start" >masked softmax</text>
+<line x1="931" y1="282" x2="951" y2="282" stroke="#52e5c3" stroke-width="2"/>
+<polyline points="946.00,277.00 952.00,282.00 946.00,287.00" fill="none" stroke="#52e5c3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="958" y="212" width="272" height="143" rx="8" fill="#101f32" />
+<text x="976" y="242" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="700" text-anchor="start" >04</text>
+<text x="976" y="276" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="21" fill="#e7f0fa" font-weight="700" text-anchor="start" >RETRIEVE</text>
+<text x="976" y="318" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="19" fill="#91a6be" font-weight="400" text-anchor="start" >P × V</text>
+<rect x="52" y="396" width="178" height="42" rx="21" fill="#152c3b" />
+<text x="141.0" y="423" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="600" text-anchor="middle" >NUMPY ONLY</text>
+<rect x="244" y="396" width="246" height="42" rx="21" fill="#152c3b" />
+<text x="367.0" y="423" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="600" text-anchor="middle" >MANUAL BACKWARD</text>
+<rect x="504" y="396" width="243" height="42" rx="21" fill="#152c3b" />
+<text x="625.5" y="423" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="600" text-anchor="middle" >KV CACHE + RoPE</text>
+<rect x="761" y="396" width="319" height="42" rx="21" fill="#152c3b" />
+<text x="920.5" y="423" font-family="Inter,DejaVu Sans,Arial,sans-serif" font-size="14" fill="#52e5c3" font-weight="600" text-anchor="middle" >TILED ONLINE SOFTMAX</text>
+</svg>

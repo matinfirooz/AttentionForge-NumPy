@@ -1,0 +1,2 @@
+# The only third-party runtime dependency. All plotting uses standard-library SVG.
+numpy>=1.24
